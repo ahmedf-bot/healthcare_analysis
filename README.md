@@ -5,7 +5,7 @@
 This project looks at how personal factors (e.g. gender, age, BMI, smoking status) and geographical location (region of the USA) may impact on medical insurance costs. The aim is to analyse the dataset and identify which factors significantly increase healthcare insurance costs.
 
 ## Dataset Content
-* The dataset was taken from Kaggle and contains anonymised personal information of people in the USA that have taken out medical insurance. 
+* The dataset was taken from Kaggle and contains anonymised personal information of people in the USA that have taken out medical insurance. https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance
 * Personal information includes age, gender, BMI, number of children, smoking status and their geographical location in the USA. Additionally, the cost of their medical insurance. 
 
 
