@@ -37,22 +37,22 @@ I will use visualisation tools like Matplotlib and Seaborn to clearly show the f
 
 1/ Do smokers pay more for medical insurance vs non smokers? 
 The box plot visualisation used and dashboard page clearly shows that smokers pay significantly more than non-smokers. 
-![smoking impact picture](/output%20Smoking%20impact.png)
+![smoking impact picture](Images/output%20Smoking%20impact.png)
 
 2/ Does having a high BMI and smoking increase medical insurance cost? 
 The scatter plot visualisation used and dashboard page clearly shows that being a smoker and having also having a high BMI means they pay more compared to a non-smoker with low BMI.
-![BMI and smoking correlation](/output%20BMI%20and%20smoking%20correlation.png)
+![BMI and smoking correlation](Images/output%20BMI%20and%20smoking%20correlation.png)
 
 3/ Do medical insurance cost increase with age? 
 The scatter plot visualisation shows a the older you get the more you pay for medical insurance. There is gradual increase in cost with increase in age of the person. 
-![Age impact](/output%20Age%20impact.png)
+![Age impact](Images/output%20Age%20impact.png)
 
 4/ Does the region impact insurance cost? 
 The box plot visualisation and dashboard page shows that region has very little impact on costs. All four regions have a similar median value. 
-![Region Impact](/output%20Region%20Impact.png)
+![Region Impact](Images/output%20Region%20Impact.png)
 
 5/ Does the number of children a person have impact on medical insurance cost? The box plot visual shows no impact on insurance cost. 
-![number of children impact](/output%20number%20of%20children%20impact.png)
+![number of children impact](Images/output%20number%20of%20children%20impact.png)
 
 ## Analysis techniques used
 * I used visualisation tools (Matplotlib and Seaborn) to analyse my dataset and identify which factors increased medical insurance costs. 
@@ -70,7 +70,7 @@ The box plot visualisation and dashboard page shows that region has very little 
 *The dashboard has various graphs (e.g. scatter plot, line plots and histograms) and buttons to drill down on the data looking at impact of smoker status, BMI, sex and by region.  
 * In the dashboard page I have used simple smoker yes and no button, male vs female button to explain the impact on insurance cost to both technical and non-techincal audiences. 
 * The dashboard page also communicates complex data insight using a scatter plot. The scatter plot shows a positive correlation between BMI and insurance cost.  
-![PowerBI Dashboard page](PowerBI%20Dashboard_page.png)
+![PowerBI Dashboard page](/Images/PowerBI%20Dashboard_page.png)
 
 ## Unfixed Bugs
 * As this is my first project and I am new to data analysis I did use Co-Pilot for code. 
