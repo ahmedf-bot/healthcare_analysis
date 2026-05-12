@@ -16,12 +16,48 @@ This project looks at how personal factors (e.g. gender, age, BMI, smoking statu
 
 ## Hypothesis and how to validate?
 * People with a smoking habit (smokers) are likely to pay more for medical insurance than non-smokers.
+* Based on the outcome of data visulisation we can prove that this hypothesis is true.
+![output Smoking impact](Images/output%20Smoking%20impact.png) 
 * A person with high BMI will pay more for medical insurance compared to lower BMI person.
 * Older people will pay more for medical insurance compared with younger individuals.
 * Geographic location should not impact on the cost of the medical insurance.
 * The number of children in the family will have no impact the cost of medical insurance.
 * The gender of the individual will have an impact on the medical insurance cost.
 * A smoking person also having a high BMI will pay more for medical insurance 
+
+* Application of Statistical and Probabilistic Principles
+While descriptive statistics provide an overview of the dataset, formal statistical analysis techniques are necessary to validate findings and support reliable conclusions. This project incorporates inferential statistical methods and probabilistic reasoning to strengthen the analytical process.
+Hypothesis Testing
+Hypothesis testing was used to determine whether observed patterns in the dataset are statistically significant rather than occurring by chance.
+The statistical decision is based on the p-value, which measures the probability of observing the data if the null hypothesis is true.
+A significance level of 0.05 was used in this analysis:
+•	If p < 0.05, the null hypothesis is rejected. 
+•	If p ≥ 0.05, there is insufficient evidence to reject the null hypothesis. 
+This approach ensures that conclusions are supported by statistical evidence rather than assumptions.
+Example: Independent t-Test
+To compare the mean values between two groups, an independent t-test can be applied.
+The t-test evaluates whether differences between groups are statistically significant. This supports objective interpretation of the dataset and improves the validity of analytical findings.
+Probability Distributions
+Probability distributions describe how values are expected to occur within a dataset and help analysts understand uncertainty and variability.
+Normal Distribution
+Many real-world datasets follow a normal distribution, where values cluster around the mean.
+The normal distribution is important because it forms the basis for many statistical techniques, including hypothesis testing and confidence interval estimation.
+In this project, understanding data distribution helped determine whether statistical assumptions were satisfied before applying analytical methods.
+Standard Deviation and Variability
+Standard deviation was used to evaluate how dispersed the data values are around the mean.
+This measure supports interpretation by identifying whether observations are tightly grouped or highly variable.
+
+Correlation Analysis
+Correlation analysis was used to measure the strength and direction of relationships between variables.
+Correlation coefficients range from:
+•	+1 → strong positive relationship 
+•	0 → no relationship 
+•	−1 → strong negative relationship 
+This analysis helps identify meaningful associations within the dataset and supports evidence-based conclusions.
+Importance of Statistical Validation
+Applying statistical testing and probability theory improves the reliability and credibility of the analysis. These methods ensure that findings are not based solely on visual observations or descriptive summaries, but are supported through quantitative evidence.
+The integration of hypothesis testing, probability distributions, variability analysis, and correlation analysis demonstrates a structured and scientifically grounded data analysis approach.
+
 
 I will use visualisation tools like Matplotlib and Seaborn to clearly show the factors impacting medical insurance costs. Additionally, I will use PowerBI to create a interactive dashboard page.
 
@@ -94,6 +130,52 @@ This project allowed me to develop my data analysis skills and put it into actio
 ## Main Data Analysis Libraries
 I used the following libraries for data analysis: pandas, numpy, matplotlib and seaborn. 
 
+## Reflective Evaluation and Methodological Adaptation
+Challenges Encountered During the Analysis
+Several challenges were encountered throughout the data analysis and machine learning process. These challenges required modifications to the original analytical approach in order to improve data quality, model reliability, and interpretability.
+Data Quality Issues
+One of the primary challenges involved inconsistencies within the dataset, including duplicate records, missing values, and uneven data formatting. Initially, removing all duplicate entries was considered; however, further investigation showed that some duplicated observations represented legitimate repeated records rather than errors.
+To address this issue, the preprocessing strategy was adapted so that only unnecessary duplicates were removed while representative observations were retained. This approach reduced data redundancy without compromising the integrity of the dataset.
+Missing values also presented difficulties because eliminating all incomplete rows significantly reduced the available training data. Instead of removing large portions of the dataset, alternative preprocessing techniques were considered to preserve as much useful information as possible while maintaining analytical reliability.
+________________________________________
+Adaptation of Analytical Techniques
+Refinement of Statistical Analysis
+During exploratory analysis, it became evident that relying solely on descriptive statistics was insufficient to validate patterns within the data. Although measures such as mean and standard deviation provided useful summaries, they did not demonstrate whether observed relationships were statistically significant.
+To address this limitation, inferential statistical methods and hypothesis testing principles were incorporated into the methodology. This adaptation strengthened the analytical process by supporting conclusions with statistical evidence rather than descriptive observation alone.
+Adjustment of Machine Learning Approach
+Initially, multiple machine learning approaches were considered, including Decision Trees and more advanced predictive models. However, early experimentation indicated that some complex models reduced interpretability and introduced unnecessary complexity for the problem context.
+As a result, the methodology was adapted to prioritise Linear Regression because:
+	the target variable was continuous, 
+	relationships between variables appeared approximately linear, 
+	and model interpretability was important for explaining outcomes. 
+This adjustment improved transparency and made the analytical findings easier to interpret and evaluate.
+The Linear Regression model is represented by:
+y=β_0+β_1 x_1+β_2 x_2+⋯+β_n x_n+ε
+________________________________________
+Improvements to the Workflow
+Another challenge involved maintaining a clear logical flow between preprocessing, statistical analysis, and machine learning stages. Early iterations of the notebook focused heavily on implementation code, which reduced clarity regarding the reasoning behind methodological decisions.
+To improve the workflow:
+	additional Markdown explanations were introduced, 
+	methodological justifications were added before key analytical steps, 
+	and explanatory commentary was included after statistical tests and model evaluation outputs. 
+These changes improved readability and ensured that the progression of the analysis could be followed more clearly.
+________________________________________
+Skills and Knowledge Developed
+This project contributed to the development of both technical and analytical skills, including:
+	data preprocessing and ETL techniques, 
+	statistical analysis and hypothesis testing, 
+	machine learning model selection, 
+	data visualisation, 
+	and methodological evaluation. 
+The project also improved understanding of how analytical decisions must be justified within a research context rather than simply implemented technically.
+________________________________________
+Future Improvements
+Although the final methodology produced meaningful results, several improvements could be explored in future work:
+	testing additional regression and ensemble learning algorithms, 
+	applying feature engineering techniques, 
+	performing cross-validation for improved model robustness, 
+	and expanding the use of probability distributions and inferential statistics. 
+These improvements could further strengthen predictive performance and analytical reliability.
 
 ## Credits 
 
